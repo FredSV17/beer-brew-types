@@ -18,3 +18,4 @@ def one_hot(database, column):
 def group_data(database, column):
     database.groupby(column).mean()
     return database
+
